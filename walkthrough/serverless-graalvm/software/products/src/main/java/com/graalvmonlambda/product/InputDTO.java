@@ -11,4 +11,11 @@ public class InputDTO {
   public void setName(String name) {
     this.name = name;
   }
+
+  public InputDTO() {
+  }
+
+  public InputDTO(String name) {
+    this.name = name;
+  }
 }
